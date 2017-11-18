@@ -22,13 +22,11 @@
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item"><a class="nav-link" href="#">Buscar
-					diaristas<span class="sr-only">(current)</span>
+			<li class="nav-item"><a class="nav-link" href="search.jsp">Buscar diaristas<span class="sr-only">(current)</span>
 			</a></li>
 		</ul>
 		<ul1 class="navbar-nav my-sm-0">
-		<li class="nav-link"><a class="nav-link" href="singin.jsp">Sign
-				In<span class="sr-only">(current)</span>
+		<li class="nav-link"><a class="nav-link" href="singin.jsp">Sign	In<span class="sr-only">(current)</span>
 		</a></li>
 		<li class="nav-link"><a class="btn btn-outline-success nav-link"
 			href="login.jsp">Login<span class="sr-only">(current)</span></a></li>

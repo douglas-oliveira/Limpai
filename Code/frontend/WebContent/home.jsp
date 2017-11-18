@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Limpai</title>
+<title>Limpai Home</title>
 <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
@@ -20,12 +20,9 @@
         <a class="nav-link" href="#">Buscar diaristas<span class="sr-only">(current)</span></a>
       </li>
     </ul>
-    	<ul1 class="navbar-nav my-sm-0">
-      		<li class="nav-link">
-        		<a class="nav-link" href="singin.jsp">Sign In<span class="sr-only">(current)</span></a>
-      		</li>    		
+    	<ul1 class="navbar-nav my-sm-0">    		
     		<li class="nav-link">
-        		<a class="btn btn-outline-success nav-link" href="login.jsp">Login<span class="sr-only">(current)</span></a>
+        		<a class="btn btn-outline-success nav-link" href="index.jsp">Logoff<span class="sr-only">(current)</span></a>
       		</li>
       </ul1>
  <!--   <form class="form-inline my-2 my-lg-0">

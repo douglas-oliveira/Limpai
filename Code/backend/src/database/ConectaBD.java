@@ -19,8 +19,7 @@ public class ConectaBD {
 		
 		try {			
 			Class.forName("com.mysql.jdbc.Driver");
-			return  DriverManager.getConnection("jdbc:mysql://127.0.0.1/limpai", "root", "root");
-			
+			return  DriverManager.getConnection("jdbc:mysql://127.0.0.1/limpai", "root", "root");			
 		
 	} catch (Exception e) {
 		throw new Exception(e);

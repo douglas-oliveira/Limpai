@@ -1,4 +1,3 @@
-@charset "ISO-8859-1";
 #search {
     float: right;
     margin-top: 9px;
@@ -8,7 +7,7 @@
 .search {
     padding: 5px 0;
     width: 230px;
-    height: 30px;
+    height: 60px;
     position: relative;
     left: 10px;
     float: left;
@@ -19,15 +18,19 @@
         position: absolute;
         width: 0px;
         float: right;
-        margin-right: 250px;
+        margin-right: 210px;
         -webkit-transition: all 0.7s ease-in-out;
         -moz-transition: all 0.7s ease-in-out;
         -o-transition: all 0.7s ease-in-out;
         transition: all 0.7s ease-in-out;
-        height: px;
+        top: 150px;
+        left: 491px;
+        height: 60px;
         line-height: 18px;
+        font-size: 18px;
         padding: 0 2px 0 2px;
         border-radius:1px;
+        text-align: center;
     }
 
         .search:hover input, .search input:focus {
@@ -36,9 +39,10 @@
         }
 
 .btn {
-    height: 30px;
+    height: 60px;
     position: absolute;
-    right: 0;
-    top: 5px;
+    left: 350px;
+    top: 150px;
     border-radius:1px;
+    font-size: 18px;
 }

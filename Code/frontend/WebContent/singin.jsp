@@ -43,7 +43,7 @@
 				<div class="contract-wall">
 					<img class="profile-img" src="images/empregador.png" alt="">
 					<h1 class="text-center login-title">Sou empregador</h1>
-					<form class="form-signin">
+					<form class="form-signin" method="post" action="cadastroEmpregador.jsp">
 						<button class="btn btn-lg btn-primary btn-block" type="submit">
 							Quero contratar</button>
 					</form>
@@ -53,7 +53,7 @@
 				<div class="work-wall">
 					<img class="profile-img" src="images/domestica.png" alt="">
 					<h1 class="text-center login-title">Sou domestica(o)</h1>
-					<form class="form-signin">
+					<form class="form-signin" method="post" action="cadastroDiarista.jsp">
 						<button class="btn btn-lg btn-primary btn-block" type="submit">
 							Quero trabalhar</button>
 					</form>

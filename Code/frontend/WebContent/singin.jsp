@@ -39,7 +39,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-md-4 col-md-offset-4">
+			<div class=" empregador col-sm-6 col-md-4 col-md-offset-4">
 				<div class="contract-wall">
 					<img class="profile-img" src="images/empregador.png" alt="">
 					<h1 class="text-center login-title">Sou empregador</h1>
@@ -49,7 +49,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-4 col-md-offset-4">
+			<div class="diarista col-sm-6 col-md-4 col-md-offset-4">
 				<div class="work-wall">
 					<img class="profile-img" src="images/domestica.png" alt="">
 					<h1 class="text-center login-title">Sou domestica(o)</h1>

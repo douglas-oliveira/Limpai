@@ -71,6 +71,9 @@
 					<div class="form-group">
 						<input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" required>
 					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="valor-diaria" name="valor-diaria" placeholder="Valor da diaria (Ex. R$ 100,00)" required>
+					</div>					
 					<label>Quais serviços você oferece?</label>
                     <div class="form-group">
                     <textarea class="form-control" type="textarea" id="servicos" placeholder="Insira aqui os serviços que você oferece." maxlength="140" rows="7"></textarea>                   

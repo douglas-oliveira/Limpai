@@ -40,5 +40,5 @@
 		out.print(e);
 	}
 
-	//response.sendRedirect("home.jsp");
+	response.sendRedirect("home.jsp");
 %>

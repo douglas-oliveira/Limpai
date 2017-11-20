@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Limpai</title>
 <link rel="stylesheet" href="css/bootstrap.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a
@@ -38,18 +39,18 @@
 	<div class="container">
 <div class="col-md-5">
     <div class="form-area">  
-        <form role="form">
+        <form class="form-signin" method="post" action="home.jsp">
         <br style="clear:both">
                     <h3 style="margin-bottom: 25px; text-align: center;">Cadastro Diarista</h3>
                     <label>Dados de acesso</label>
     				<div class="form-group">
-						<input type="text" class="form-control" id="name" name="nome" placeholder="Nome" required>
+						<input type="text" class="form-control" id="name" name="nome" placeholder="Nome" required autofocus>
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="email" name="ConfirmaEmail" placeholder="Confirme o email" required>
+						<input type="email" class="form-control" id="email" name="ConfirmaEmail" placeholder="Confirme o email" required>
 					</div>
 					<div class="form-group">
 						<input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required>
@@ -62,13 +63,10 @@
 						<input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF" required>
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="nascimento" name="dataNascimento" placeholder="Data de nascimento" required>
+						<input type="date" class="form-control date" id="nascimento" name="dataNascimento" placeholder="Data de nascimento" required>
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="cpe" name="cpe" placeholder="CPE" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="endereco" name="endereco" placeholder="endereço" required>
+						<input type="text" class="form-control " id="endereco" name="endereco" placeholder="Endereço" required>
 					</div>
 					<div class="form-group">
 						<input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" required>
@@ -77,8 +75,15 @@
                     <div class="form-group">
                     <textarea class="form-control" type="textarea" id="servicos" placeholder="Insira aqui os serviços que você oferece." maxlength="140" rows="7"></textarea>                   
                     </div>
-            
-        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Sing in</button>
+
+
+
+      <form class="form-signin" method="post" action="home.jsp">
+        
+        <button class="btn  btn-primary pull-right" type="submit">Sing in</button>
+      </form>
+
+           
         </form>
     </div>
 </div>

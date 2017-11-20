@@ -38,7 +38,7 @@
 	<div class="container">
 <div class="col-md-5">
     <div class="form-area">  
-        <form role="form">
+        <form class="form-signin" method="post" action="home.jsp">
         <br style="clear:both">
                     <h3 style="margin-bottom: 25px; text-align: center;">Cadastro empregador</h3>
                     <label>Dados de acesso</label>
@@ -46,10 +46,10 @@
 						<input type="text" class="form-control" id="name" name="nome" placeholder="Nome" required>
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="email" name="ConfirmaEmail" placeholder="Confirme o email" required>
+						<input type="email" class="form-control" id="email" name="ConfirmaEmail" placeholder="Confirme o email" required>
 					</div>
 					<div class="form-group">
 						<input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required>
@@ -65,15 +65,16 @@
 						<input type="text" class="form-control" id="nascimento" name="dataNascimento" placeholder="Data de nascimento" required>
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="cpe" name="cpe" placeholder="CPE" required>
-					</div>
-					<div class="form-group">
 						<input type="text" class="form-control" id="endereco" name="endereco" placeholder="endereço" required>
 					</div>
 					<div class="form-group">
 						<input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" required>
 					</div>
-        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Sing in</button>
+					
+      <form class="form-signin" method="post" action="home.jsp">
+        
+        <button class="btn  btn-primary pull-right" type="submit">Sing in</button>
+      </form>
         </form>
     </div>
 </div>

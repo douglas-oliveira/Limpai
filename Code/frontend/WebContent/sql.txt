@@ -1,0 +1,14 @@
+CREATE TABLE usuarios (
+    id int not null auto_increment,
+    nome varchar(255),
+    email varchar(255),
+    senha varchar(255),
+    cpf varchar(255),
+    dataNascimento varchar(255),
+    endereco varchar(255),
+    telefone varchar(255),
+    servico varchar(255),
+    valor varchar(255),
+    isEmpregador varchar(255),
+    primary key (id)
+);

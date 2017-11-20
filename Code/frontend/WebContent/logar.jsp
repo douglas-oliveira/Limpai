@@ -27,9 +27,9 @@
 		out.println(e.toString());
 	}
 
-	//out.println(emaile);
-	//out.println(senhae);
-	// out.println("o email e "+email );
+	out.println(emaile);
+	out.println(senhae);
+	 out.println("o email e "+email );
 	if (emaile.equals(email) && senhae.equals(senha)) {
 
 		response.sendRedirect("index.jsp");

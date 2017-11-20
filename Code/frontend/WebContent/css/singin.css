@@ -1,4 +1,16 @@
 @charset "ISO-8859-1";
+.empregador
+{
+	position: absolute;
+	left: 200px;
+}
+
+.diarista
+{
+	position: absolute;
+	right: 200px;
+}
+
 .form-signin
 {
     max-width: 330px;

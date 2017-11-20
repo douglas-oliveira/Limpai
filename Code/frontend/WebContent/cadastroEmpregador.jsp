@@ -38,7 +38,7 @@
 	<div class="container">
 <div class="col-md-5">
     <div class="form-area">  
-        <form class="form-signin" method="post" action="home.jsp">
+        <form class="form-signin" method="post" action="teste.jsp">
         <br style="clear:both">
                     <h3 style="margin-bottom: 25px; text-align: center;">Cadastro empregador</h3>
                     <label>Dados de acesso</label>
@@ -71,10 +71,11 @@
 						<input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" required>
 					</div>
 					
-      <form class="form-signin" method="post" action="home.jsp">
+					
+
         
-        <button class="btn  btn-primary pull-right" type="submit">Sing in</button>
-      </form>
+        <button class="btn  btn-primary pull-right" type="submit">Cadastrar</button>
+
         </form>
     </div>
 </div>

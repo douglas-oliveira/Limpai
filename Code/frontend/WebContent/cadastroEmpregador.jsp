@@ -65,7 +65,7 @@
 						<input type="date" class="form-control" id="nascimento" name="dataNascimento" placeholder="Data de nascimento" required>
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="endereco" name="endereco" placeholder="endereço" required>
+						<input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereço" required>
 					</div>
 					<div class="form-group">
 						<input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" required>

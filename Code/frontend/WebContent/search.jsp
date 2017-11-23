@@ -23,7 +23,7 @@
         		<a class="nav-link" href="singin.jsp">Sign In<span class="sr-only">(current)</span></a>
       		</li>    		
     		<li class="nav-link">
-        		<a class="btn-outline-success nav-link" href="login.jsp">Login<span class="sr-only">(current)</span></a>
+        		<a class="nav-link" href="login.jsp">Login<span class="sr-only">(current)</span></a>
       		</li>
       </ul1>
  <!--   <form class="form-inline my-2 my-lg-0">

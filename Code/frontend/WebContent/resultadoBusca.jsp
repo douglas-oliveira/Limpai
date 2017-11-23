@@ -36,6 +36,25 @@
 	</div>
 	</nav>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <h1>Pesquise por cidade!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-3">
+            <form action="" class="search-form">
+                <div class="form-group has-feedback">
+            		<label for="search" class="sr-only">Digite a cidade</label>
+            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+              		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+            	</div>
+            </form>
+        </div>
+    </div>
+</div>
+
 	<script
 		src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>

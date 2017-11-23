@@ -17,8 +17,8 @@
 		ResultSet rs = stmt.executeQuery(query);
 
 		while (rs.next()) {
-			emaile = rs.getString(3); //mostra o campo 3 da tabela
-			senhae = rs.getString(4);//mostra o campo 4 da tabela
+			emaile = rs.getString(3); //mostra o campo 2 da tabela
+			senhae = rs.getString(4);//mostra o campo 3 da tabela
 		}
 
 		//fecha a conexao com o banco

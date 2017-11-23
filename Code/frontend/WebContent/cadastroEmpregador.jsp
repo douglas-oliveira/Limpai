@@ -38,7 +38,7 @@
 	<div class="container">
 <div class="col-md-5">
     <div class="form-area">  
-        <form class="form-signin" method="post" action="teste.jsp">
+        <form class="form-signin" method="post" action="valida-empregador.jsp">
         <br style="clear:both">
                     <h3 style="margin-bottom: 25px; text-align: center;">Cadastro empregador</h3>
                     <label>Dados de acesso</label>

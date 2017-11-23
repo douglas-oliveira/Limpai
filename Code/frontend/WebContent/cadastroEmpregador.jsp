@@ -74,17 +74,14 @@
 							name="dataNascimento" placeholder="Data de nascimento" required>
 					</div>
 					<div class="form-group">
-<<<<<<< HEAD
 						<input type="text" class="form-control " id="cidade" name="cidade"
 							placeholder="Cidade" required>
-=======
-						<input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereço" required>
->>>>>>> branch 'master' of https://github.com/douglas-oliveira/Limpai
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="endereco"
-							name="endereco" placeholder="endereço" required>
+						<input type="text" class="form-control " id="endereco"
+							name="endereco" placeholder="Endereço" required>
 					</div>
+
 					<div class="form-group">
 						<input type="text" class="form-control" id="telefone"
 							name="telefone" placeholder="Telefone" required>

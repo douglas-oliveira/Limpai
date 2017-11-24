@@ -42,10 +42,16 @@
 			<div class="search">
 
 				<form name="buscar" method="post" action="buscar-banco.jsp">
-					<input name="cidade" type="text" class="form-control input-sm" maxlength="64" placeholder="Digite sua cidade" required autofocus/>
+					<input name="cidade" type="text" class="form-control input-sm"
+						maxlength="64" placeholder="Digite sua cidade" required autofocus />
 					<button type="submit" class="btn btn-primary btn-sm">Buscar
 						diaristas!</button>
+						
 				</form>
+				<br>
+				<br>
+
+				
 			</div>
 		</div>
 	</div>

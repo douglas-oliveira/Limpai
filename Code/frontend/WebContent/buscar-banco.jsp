@@ -22,7 +22,7 @@
 			<th>Serviço</th>
 			<th>Valor</th>
 		</tr>
-	</thead>
+	</thead>	
 
 	<%
 		try {

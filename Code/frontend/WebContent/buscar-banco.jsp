@@ -29,11 +29,6 @@
 		<ul class="navbar-nav mr-auto">
 		</ul>
 		<ul1 class="navbar-nav my-sm-0">
-		<li class="nav-link"><a class="nav-link" href="singin.jsp">Sign
-				In<span class="sr-only">(current)</span>
-		</a></li>
-		<li class="nav-link"><a class="nav-link" href="login.jsp">Login<span
-				class="sr-only">(current)</span></a></li>
 		</ul1>
 		<!--   <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

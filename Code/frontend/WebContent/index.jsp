@@ -20,6 +20,9 @@
       <li class="nav-item">
         <a class="nav-link" href="search.jsp">Buscar diaristas<span class="sr-only">(current)</span></a>
       </li>
+            <li class="nav-item">
+        <a class="nav-link" href="qrcode/index.html">Gerar QRCode<span class="sr-only">(current)</span></a>
+      </li>
     </ul>
     	<ul1 class="navbar-nav my-sm-0">
       		<li class="nav-link">
